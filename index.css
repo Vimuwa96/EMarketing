@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-header {
+  height: 100vh;
+  background-color: rgb(103, 34, 231);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.nav-item {
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+.nav-item a {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-item a:hover {
+  color: rgb(182, 178, 178);
+  transition: 0.5s;
+}
+
+#search {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+#search:hover {
+  border-radius: 50%;
+}
+
+#Quate a {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 2px solid white;
+  text-align: center;
+  padding: 10px 13px;
+}
+
+#Quate a:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+.second-content {
+  height: 100vh;
+}
+
+.sub {
+  color: rgb(231, 222, 222);
+  letter-spacing: 5px;
+  font-size: 18px;
+}
+
+.main {
+  color: white;
+  font-size: 8vh;
+  font-weight: 800;
+  line-height: 9dvh;
+  justify-content: center;
+}
+
+.sub-two {
+  font-size: 18px;
+  color: white;
+  justify-content: center;
+}
+
+.cover-image img {
+  object-fit: fill;
+  width: 120%;
+}
+
+.our-services a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 15px;
+}
+
+.our-services a:hover {
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+
+
+  .sub{
+font-size: 3vh;
+letter-spacing: 2px;
+  }
+  .main {
+    font-size: 5vh;
+    font-weight: 800;
+    line-height: 6dvh;
+    
+  }
+
+  .sub-two{
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .our-services a{
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+  }
+
+
+  .main-header{
+    height: 150vh;
+  }
+}
+
+
+
+
+
+
+
+/* Tablet */
+@media only screen and (max-width: 900) {
+  .main {
+    font-size: 5vh;
+    font-weight: 800;
+    line-height: 5dvh;
+  }
+
+  .sub-two{
+    font-size: 11px;
+  }
+
+  .main-header{
+    height: 150vh;
+  }
+}
