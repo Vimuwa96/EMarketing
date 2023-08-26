@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -98,53 +98,30 @@
   transition: 1s;
 }
 
-/* Mobile */
-@media only screen and (max-width: 500px) {
-  .sub {
-    text-align: center;
-    font-size: 2vh;
-    letter-spacing: 2px;
 
-  }
-  .main {
-    font-size: 3vh;
-    font-weight: 800;
-    line-height: 4dvh;
-  }
 
-  .sub-two {
-    font-size: 15px;
-    text-align: justify;
-  }
 
-  .our-services a {
-    text-align: center;
-    align-items: center;
-  }
+.exclusive p {
+font-size: 5dvh;
+font-weight: 700;
+/* padding-left: 25px; */
 
-  .main-header {
-    height: 150vh;
-  }
-
-  .cover-image img {
-    object-fit: fill;
-    width: 100%;
-  }
 }
 
-/* Tablet */
-@media only screen and (max-width: 900) {
-  .main {
-    font-size: 5vh;
-    font-weight: 800;
-    line-height: 5dvh;
-  }
+.sub-para{
+  /* padding-left: 25px; */
+  text-align: justify;
+}
 
-  .sub-two {
-    font-size: 11px;
-  }
+.solution-list{
+  /* padding-left: 25px; */
+  list-style: none;
+  padding-top: 10px;
+}
 
-  .main-header {
-    height: 150vh;
-  }
+.solution-list ul li{
+  font-weight: 400;
+  list-style: none;
+  line-height: 35px;
+  color: rgb(54, 52, 52);
 }
