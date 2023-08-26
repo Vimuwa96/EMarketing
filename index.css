@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .main-header {
@@ -97,16 +98,13 @@
 .exclusive p {
   font-size: 5vh;
   font-weight: 700;
-  /* padding-left: 25px; */
 }
 
 .sub-para {
-  /* padding-left: 25px; */
   text-align: justify;
 }
 
 .solution-list {
-  /* padding-left: 25px; */
   list-style: none;
   padding-top: 10px;
 }
@@ -117,12 +115,6 @@
   line-height: 35px;
   color: rgb(54, 52, 52);
 }
-
-/* 
-#header{
-  position: absolute;
-  top: 50%;
-} */
 
 .read-more a {
   text-decoration: none;
@@ -154,4 +146,90 @@
   border-top: 1px solid rgb(105, 86, 245);
   width: 6rem;
   margin: 0 1rem;
+}
+
+.small-pra p {
+  color: rgb(82, 79, 79);
+  text-align: center;
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+}
+
+.cards:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  transition: 1s;
+}
+.card-name p {
+  font-size: 4vh;
+  font-weight: 600;
+}
+
+.card-body p {
+  font-size: 15px;
+  width: 100%;
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: initial; */
+}
+
+.card-link a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+/* Icons Hover */
+.card-icons-1 i {
+  justify-content: center;
+  background-color: rgb(248, 244, 244);
+  padding: 30px;
+  border-radius: 50%;
+  color: rgb(223, 171, 30);
+}
+
+.cards .card-icons-1 i:hover {
+  justify-content: center;
+  background-color: rgb(241, 161, 41);
+  padding: 30px;
+  border-radius: 50%;
+  color: white;
+  transition: 1s;
+}
+
+.card-icons-2 i {
+  justify-content: center;
+  background-color: rgb(248, 244, 244);
+  padding: 30px;
+  border-radius: 50%;
+  color: rgb(16, 206, 48);
+}
+
+.cards .card-icons-2 i:hover {
+  justify-content: center;
+  background-color: rgb(16, 206, 48);
+  padding: 30px;
+  border-radius: 50%;
+  color: white;
+  transition: 1s;
+}
+
+.card-icons-3 i {
+  justify-content: center;
+  background-color: rgb(248, 244, 244);
+  padding: 30px;
+  border-radius: 50%;
+  color: rgb(240, 78, 226);
+}
+
+.cards .card-icons-3 i:hover {
+  justify-content: center;
+  background-color: rgb(240, 78, 226);
+  border-radius: 50%;
+  color: white;
+  transition: 1s;
 }
