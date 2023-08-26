@@ -147,6 +147,14 @@
   right: 0;
 }
 
-#exclusive {
-  overflow-y: hidden;
+#third-section {
+  height: 100vh;
+}
+.services-icon::before,
+.services-icon::after {
+  display: inline-block;
+  content: "";
+  border-top: 1px solid rgb(105, 86, 245);
+  width: 6rem;
+  margin: 0 1rem;
 }
