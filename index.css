@@ -173,14 +173,14 @@
 .card-body p {
   font-size: 15px;
   width: 100%;
-  /* white-space: nowrap;
-  overflow: hidden;
-  text-overflow: initial; */
+  text-align: center;
 }
 
 .card-link a {
   text-decoration: none;
   color: blueviolet;
+  font-weight: 500;
+  padding: 8px 12px;
 }
 
 /* Icons Hover */
@@ -232,4 +232,63 @@
   border-radius: 50%;
   color: white;
   transition: 1s;
+}
+
+.card-icons-4 i {
+  justify-content: center;
+  background-color: rgb(248, 244, 244);
+  padding: 30px;
+  border-radius: 50%;
+  color: rgb(50, 85, 241);
+}
+
+.cards .card-icons-4 i:hover {
+  justify-content: center;
+  background-color: rgb(50, 85, 241);
+  border-radius: 50%;
+  color: white;
+  transition: 1s;
+}
+
+.card-icons-5 i {
+  justify-content: center;
+  background-color: rgb(248, 244, 244);
+  padding: 30px;
+  border-radius: 50%;
+  color: rgb(241, 39, 39);
+}
+
+.cards .card-icons-5 i:hover {
+  justify-content: center;
+  background-color: rgb(241, 39, 39);
+  border-radius: 50%;
+  color: white;
+  transition: 1s;
+}
+
+.card-icons-6 i {
+  justify-content: center;
+  background-color: rgb(248, 244, 244);
+  padding: 30px;
+  border-radius: 50%;
+  color: rgb(9, 235, 235);
+}
+
+.cards .card-icons-6 i:hover {
+  justify-content: center;
+  background-color: rgb(9, 235, 235);
+  border-radius: 50%;
+  color: white;
+  transition: 1s;
+}
+
+.service-cards-bg-image img {
+  position: absolute;
+  z-index: -1;
+  opacity: 5%;
+  overflow-x: hidden;
+}
+
+.section-four {
+  height: 100vh;
 }
