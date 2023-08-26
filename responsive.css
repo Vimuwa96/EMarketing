@@ -31,8 +31,12 @@
       width: 100%;
     }
   
+    .exclusive p {
+        font-size: 2.5dvh;
+        }
+
+
     .solution-list{
-      padding-left: 0px;
       list-style: none;
       padding-top: 10px;
     }
