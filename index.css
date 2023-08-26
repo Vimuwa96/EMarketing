@@ -283,7 +283,8 @@
   position: absolute;
   z-index: -1;
   opacity: 5%;
-  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
 }
 
 .plan-icon {
