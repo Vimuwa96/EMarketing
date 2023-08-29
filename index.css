@@ -301,7 +301,7 @@
   opacity: 10%;
 }
 
-.plan-img i {
+.plan-img-1 i {
   color: white;
   height: 100%;
   width: 100%;
@@ -310,7 +310,37 @@
   background-color: rgb(86, 205, 252);
 }
 
+.plan-img-2 i {
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  border-radius: 50%;
+  background-color: rgb(255, 94, 0);
+}
+
+.plan-img-3 i {
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  border-radius: 50%;
+  background-color: rgb(53, 168, 8);
+}
+
 .plan-tittle p {
   font-size: 4vh;
   font-weight: 600;
+}
+
+#achivements {
+  background-image: url(/images/magicpattern-pattern-1693035356822.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#last {
+  height: 100vh;
 }
